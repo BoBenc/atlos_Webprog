@@ -1,0 +1,47 @@
+<!--
+File: index.html
+Author: Bőgér Bence
+Copyright: 2024, Bőgér Bence
+Group: Szoft I-2-N
+Date: 2024-05-30
+Github: https://github.com/BoBenc/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téglalap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feladat 0334</h1>
+      <h2>Téglalap átlószámító</h2>
+      <div class="form">
+        <div class="input">
+          <label for="aSideInput" class="form-label">a oldal</label>
+          <input type="text" id="aSideInput" class="form-control">
+        </div>
+        <div class="input">
+          <label for="bSideInput" class="form-label">b oldal</label>
+          <input type="text" id="bSideInput" class="form-control">
+        </div>
+        <div>
+          <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+        </div>
+        <div class="input mt-2">
+          <label for="diagonalInput" class="form-label">Átló</label>
+          <input type="text" id="diagonalInput" class="form-control">
+        </div>
+      </div>
+      <div class="about fw-semibold mt-2">
+        Készítette:
+        Bőgér Bence, I-2-N, 2024-05-30
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
